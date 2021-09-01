@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 	
 	// Call the /posts endpoint via the WordPress API
-	$.getJSON("http://steezprm.wordpress.com/wp-json/wp/posts/", function (posts) {
+	$.getJSON("http://kapitolartlabsdesign.wordpress.com/wp-json/", function (posts) {
   		
   		// Loop through all the posts returned and console.log() each of
   		// their HTML content
