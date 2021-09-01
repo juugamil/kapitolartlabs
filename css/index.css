@@ -17,7 +17,7 @@
     padding: 1em;
     align-items: center;
     justify-content: center;
-    background-color: none;
+    background-color: rgba(91, 104, 227, .7);
 }
 
 .contact {
