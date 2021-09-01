@@ -204,6 +204,7 @@ html * {
     background-color: none;
     z-index: 3;
     align-items: center;
+    align-content: center;
     height: 5em;
 }
 
