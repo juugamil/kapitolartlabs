@@ -573,7 +573,7 @@ html * {
     #nav-slide {
         display: none;
         position: absolute;
-        top: 100px;
+        top: 80px;
         right: 0px;
         height: auto;
         width: 100vw;
