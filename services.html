@@ -19,6 +19,7 @@
   <script src="/js/youtube.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/slides.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -28,6 +29,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="/js/slides.js"></script>
 </head>
 
 <body>
@@ -79,6 +81,17 @@
     <div class="services-list row">
       <div class="services-list-block">
         <h3>Brand Consultation</h3>
+        <div id="slidedemo" class="sSlide">
+          <!-- TOP HALF : IMAGE + CONTROLS -->
+          <div class="sTop">
+            <div class="sImg"></div>
+            <div class="sLeft"></div>
+            <div class="sRight"></div>
+          </div>
+        
+          <!-- BOTTOM HALF : CAPTION -->
+          <div class="sBottom"></div>
+        </div>
         <div class="service-description hide" id="#service-description">
           The Lab has been building other brands for years, and has become a branding go-to in our own communities for solid, cohesive brand design. We understand the importance of building a brand around your business & can implement various solutions to either strengthen or establish your brand identity; which is the most important conceptual foundation for everything your business does. We can help you to understand this, walk you through proven methods, & provide resources that will help you accomplish what we’ve discussed. 
         </div>
@@ -138,6 +151,20 @@ Not only do we help you with the design of the space, but we can also help you t
     $('.carousel').carousel({
       interval: 2000
     })
+  </script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function(){
+    sslide.init({
+      target: "slidedemo",
+      images: [
+        {src: "/img/DeBarryLogo.png", cap: "DeBarry Logo"},
+        {src: "dove.jpg", cap: "A birb."},
+        {src: "fox.jpg", cap: "Not a doge."}
+      ],
+      auto: 3000 // OPTIONAL, 3 sec per slide
+    });
+  });
   </script>
 
   <script src="js/nav-toggle.js" async defer></script>
