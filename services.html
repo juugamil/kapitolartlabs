@@ -12,6 +12,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/client.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -19,7 +20,7 @@
   <script src="/js/youtube.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/slides.css">
+  <link rel="stylesheet" href="/css/slides.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -29,7 +30,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="/js/slides.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </head>
 
 <body>
@@ -61,19 +62,19 @@
         <li><a href="/contact.html">Contact</a></li>
       </div>
     </div>
-   <div class="sub-hero-overlay row">
-    <div class="headline">
-      <h1>What we offer</h1>
-    </div>
-  </div>
-      <div class="sub-hero row">
-        <video src="/video/blankcanvas.mp4" id=myVideo autoplay loop playsinline muted></video>
+    <div class="sub-hero-overlay row">
+      <div class="headline">
+        <h1>What we offer</h1>
       </div>
-   
+    </div>
+    <div class="sub-hero row">
+      <video src="/video/blankcanvas.mp4" id=myVideo autoplay loop playsinline muted></video>
+    </div>
+
 
     <div class="fullscreen row">
       <div class="text">
-        <h2>Click, or tap, on a service below to reveal it's description. 
+        <h2>Click, or tap, on a service below to reveal it's description.
         </h2>
       </div>
     </div>
@@ -81,45 +82,67 @@
     <div class="services-list row">
       <div class="services-list-block">
         <h3>Brand Consultation</h3>
-        <div id="slidedemo" class="sSlide">
-          <!-- TOP HALF : IMAGE + CONTROLS -->
-          <div class="sTop">
-            <div class="sImg"></div>
-            <div class="sLeft"></div>
-            <div class="sRight"></div>
-          </div>
-        
-          <!-- BOTTOM HALF : CAPTION -->
-          <div class="sBottom"></div>
-        </div>
         <div class="service-description hide" id="#service-description">
-          The Lab has been building other brands for years, and has become a branding go-to in our own communities for solid, cohesive brand design. We understand the importance of building a brand around your business & can implement various solutions to either strengthen or establish your brand identity; which is the most important conceptual foundation for everything your business does. We can help you to understand this, walk you through proven methods, & provide resources that will help you accomplish what we’ve discussed. 
+          The Lab has been building other brands for years, and has become a branding go-to in our own communities for
+          solid, cohesive brand design. We understand the importance of building a brand around your business & can
+          implement various solutions to either strengthen or establish your brand identity; which is the most important
+          conceptual foundation for everything your business does. We can help you to understand this, walk you through
+          proven methods, & provide resources that will help you accomplish what we’ve discussed.
         </div>
       </div>
       <div class="services-list-block" id="services-list-block">
         <h3>Brand Identity</h3>
+        <section class="customer-logos slider">
+          <div class="slide">
+            <img src="img/DeBarryLogo.png">
+          </div>
+          <div class="slide">
+            <img src="img/BCSneakerLogo.png">
+          </div>
+          <div class="slide">
+            <img src="img/Hundley.png">
+          </div>
+          <div class="slide">
+            <img src="img/OAT.png">
+          </div>
+          <div class="slide">
+            <img src="img/SneakerTubLogo(Classic).png">
+          </div>
+        </section>
         <div class="service-description hide" id="#service-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam necessitatibus architecto repellendus quia delectus quod tempora amet nemo sit, a iure deleniti et velit obcaecati. Accusamus cupiditate animi nihil.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam necessitatibus architecto repellendus
+          quia delectus quod tempora amet nemo sit, a iure deleniti et velit obcaecati. Accusamus cupiditate animi
+          nihil.
         </div>
       </div>
       <div class="services-list-block" id="services-list-block">
         <h3>Interior/Exterior Design</h3>
         <div class="service-description hide" id="#service-description">
-          The Lab can fully blueprint & design your next place of business. Our experienced designers have a history designing brick & mortars, mall storefronts, & offices/suite spaces. From start to finish, we can help you turn any space into a place customers love to shop & get serviced. 
-Not only do we help you with the design of the space, but we can also help you to source any needed materials. Opening a new location can be very stressful as far as executing the set-up & general design ontop of everything else. With the Lab, it’s a seamless process. We make your life easy.
+          The Lab can fully blueprint & design your next place of business. Our experienced designers have a history
+          designing brick & mortars, mall storefronts, & offices/suite spaces. From start to finish, we can help you
+          turn any space into a place customers love to shop & get serviced.
+          Not only do we help you with the design of the space, but we can also help you to source any needed materials.
+          Opening a new location can be very stressful as far as executing the set-up & general design ontop of
+          everything else. With the Lab, it’s a seamless process. We make your life easy.
 
         </div>
       </div>
       <div class="services-list-block" id="services-list-block">
         <h3>Web Design & Development</h3>
         <div class="service-description hide" id="#service-description">
-          From a graphic mockup to a fully developed website: we bring your business to life online. We tailor your website to suit your needs, your business, and your brand. From small business to major corporations, we can code and develop what you need to make your business services accessible online.   
+          From a graphic mockup to a fully developed website: we bring your business to life online. We tailor your
+          website to suit your needs, your business, and your brand. From small business to major corporations, we can
+          code and develop what you need to make your business services accessible online.
         </div>
       </div>
       <div class="services-list-block" id="services-list-block">
         <h3>Commercial Videography/Photography</h3>
         <div class="service-description hide" id="#service-description">
-          Every business in today’s digital age, can benefit from visual ads & campaigns. Consumers need to be convinced to spend with you in a much shorter timeframe than ever before. Solid visuals such as product videos/shots, commercial ads, & testimonials can add a lot to your business & also let you reach a different type of clientele. Incorporating professional visuals is one of the most effective ways to get consumers to buy into your business & spend.
+          Every business in today’s digital age, can benefit from visual ads & campaigns. Consumers need to be convinced
+          to spend with you in a much shorter timeframe than ever before. Solid visuals such as product videos/shots,
+          commercial ads, & testimonials can add a lot to your business & also let you reach a different type of
+          clientele. Incorporating professional visuals is one of the most effective ways to get consumers to buy into
+          your business & spend.
         </div>
       </div>
     </div>
@@ -153,18 +176,29 @@ Not only do we help you with the design of the space, but we can also help you t
     })
   </script>
 
-<script>
-  window.addEventListener("DOMContentLoaded", function(){
-    sslide.init({
-      target: "slidedemo",
-      images: [
-        {src: "/img/DeBarryLogo.png", cap: "DeBarry Logo"},
-        {src: "dove.jpg", cap: "A birb."},
-        {src: "fox.jpg", cap: "Not a doge."}
-      ],
-      auto: 3000 // OPTIONAL, 3 sec per slide
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
     });
-  });
   </script>
 
   <script src="js/nav-toggle.js" async defer></script>
