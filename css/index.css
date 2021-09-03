@@ -229,7 +229,7 @@ html * {
     text-decoration: none;
 }
 
-.navigation li a:active {
+.navigation li a.current {
     color: #ee6e3c;
     text-decoration: none;
 }

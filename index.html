@@ -183,6 +183,8 @@
     $('.carousel').carousel({
       interval: 2000
     })
+
+    $("a[href*='" + location.pathname + "']").addClass("current");
   </script>
 
   <script src="js/nav-toggle.js" async defer></script>
