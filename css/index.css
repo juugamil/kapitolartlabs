@@ -52,6 +52,11 @@
     justify-content: center;
 }
 
+.customer-logos {
+    display: flex;
+    text-align: center;
+}
+
 .fullscreen {
     display: flex;
     position: relative;
