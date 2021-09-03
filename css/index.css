@@ -213,7 +213,6 @@ html * {
 }
 
 .navigation li {
-    color: white;
     list-style-type: none;
     flex: 1 1 50%;
     justify-content: space-between;
@@ -227,10 +226,12 @@ html * {
 .navigation li a {
     color: white;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .navigation li a:active {
     color: #ee6e3c;
+    text-decoration: none;
 }
 
 .navigation li a:visited {
