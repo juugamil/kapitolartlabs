@@ -329,7 +329,7 @@
 /* MediaQuerys
 ------------------------------------*/
 /* Small devices */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .sheetSlider {
         font-size: 9px;
     }
@@ -353,7 +353,7 @@
     }
 }
 /* Medium devices */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .sh__btns {
         display: flex;
     }
@@ -363,7 +363,7 @@
 }
 
 /* Large devices */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .sheetSlider{
         font-size: 10px;
     }
