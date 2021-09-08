@@ -365,13 +365,14 @@ html * {
 }
 
 .social-links a img {
+    display: flex;
     flex-direction: row;
     object-fit: contain;
     width: 30%;
     height: auto;
     padding: .5em;
     text-align: end;
-    float: right;
+    align-content: flex-end;
 }
 
 .sub-hero-overlay {
