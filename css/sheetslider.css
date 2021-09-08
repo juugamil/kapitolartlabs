@@ -347,6 +347,10 @@
     .sh-control {
         bottom: calc(4em + 66px);
     }
+
+    .sh__item img {
+        height: 35vh;
+    }
 }
 /* Medium devices */
 @media (min-width: 768px) {
@@ -355,6 +359,9 @@
     }
     .sh__meta {
         display: block;
+    }
+    .sh__item img {
+        height: 35vh;
     }
 }
 
