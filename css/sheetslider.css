@@ -12,7 +12,6 @@
     line-height: 1.5;
     position: relative;
     width: 100%;
-    padding-bottom: 42.857143%;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -148,14 +147,14 @@
 /* Boton de control (play/pause)
 ------------------------------------*/
 .sh-control {
-    background-image: url(../img/icons/pause.png);
+    background-image: url(/img/icons/pause.png);
     width: 45px;
     height: 45px;
     bottom: 50px;
     background-color: white;
 }
 .sh-control.is-active {
-    background-image: url(../img/icons/play.png);
+    background-image: url(/img/icons/play.png);
 }
 
 /*Intrinsic Ratios
@@ -298,7 +297,7 @@
 .sheetSlider input:nth-child(9):checked:last-of-type~.sh__arrows label:nth-child(1),
 .sheetSlider input:nth-child(9):checked~.sh__arrows label:nth-child(10),
 .sheetSlider input:nth-child(10):checked:last-of-type~.sh__arrows label:nth-child(1) {
-    background-image: url(../img/icons/right.png);
+    background-image: url(/img/icons/right.png);
     display: block;
     float: right;
 }
@@ -321,7 +320,7 @@
 .sheetSlider input:nth-child(8):checked~.sh__arrows label:nth-child(7),
 .sheetSlider input:nth-child(9):checked~.sh__arrows label:nth-child(8),
 .sheetSlider input:nth-child(10):checked~.sh__arrows label:nth-child(9) {
-    background-image: url(../img/icons/left.png);
+    background-image: url(/img/icons/left.png);
     display: block;
     float: left;
 }
