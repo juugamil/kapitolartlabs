@@ -719,6 +719,10 @@ html * {
         border: none;
     }
 
+    .services-list {
+        z-index: 1;
+    }
+
     .service-description {
         flex-direction: column;
     }
