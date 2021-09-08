@@ -360,9 +360,6 @@
     .sh__meta {
         display: block;
     }
-    .sh__item img {
-        height: 35vh;
-    }
 }
 
 /* Large devices */
