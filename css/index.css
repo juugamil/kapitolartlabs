@@ -760,6 +760,15 @@ html * {
         justify-content: center;
     }
 
+    .social-links a {
+        display: flex;
+        object-fit: contain;
+        width: 30%;
+        height: auto;
+        padding: 1em;
+        justify-content: center;
+    }
+
     .social-links a img {
         display: flex;
         flex-direction: row;
