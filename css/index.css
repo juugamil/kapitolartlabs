@@ -661,7 +661,7 @@ html * {
     
     .portfolio-card {
         display: flex;
-        width: 100%;
+        width: 33%;
         height: 30vh;
         margin: 0.2em;
         background-image: url(/img/Hundley.png);
