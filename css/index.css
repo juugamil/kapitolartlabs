@@ -752,10 +752,10 @@ html * {
         display: flex;
         align-content: center;
         align-items: center;
-        justify-content: space-evenly;
     }
 
     .social-links a img {
+        display: flex;
         flex-direction: row;
         object-fit: contain;
         width: 35%;
