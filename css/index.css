@@ -252,13 +252,17 @@ html * {
     justify-content: space-between;
 }
 
-.portfolio-card, .portfolio-card > a {
+.portfolio-card {
     display: flex;
     width: 33%;
     height: 30vh;
     margin: .5em;
     background-image: url(/img/hero-image.jpeg);
     background-size: contain;
+}
+
+.portfolio-card > a {
+    width: 100%;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
