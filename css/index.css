@@ -254,7 +254,7 @@ html * {
 
 .portfolio-card {
     display: flex;
-    width: 100vw;
+    width: 33%;
     height: 30vh;
     margin: .5em;
     background-image: url(/img/hero-image.jpeg);
