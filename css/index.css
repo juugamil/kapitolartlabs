@@ -252,7 +252,7 @@ html * {
     justify-content: space-between;
 }
 
-.portfolio-card {
+.portfolio-card, .portfolio-card > a {
     display: flex;
     width: 33%;
     height: 30vh;
