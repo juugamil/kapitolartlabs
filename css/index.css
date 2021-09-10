@@ -378,6 +378,10 @@ html * {
     align-content: flex-end;
 }
 
+.social-links a img {
+    width: 30%;
+}
+
 .sub-hero-overlay {
     flex: 1 1 100%;
     width: 100vw;
