@@ -376,6 +376,7 @@ html * {
     padding: 1em;
     text-align: end;
     align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .social-links a img {
@@ -756,6 +757,7 @@ html * {
         display: flex;
         align-content: center;
         align-items: center;
+        justify-content: center;
     }
 
     .social-links a img {
@@ -765,6 +767,7 @@ html * {
         width: 35%;
         height: auto;
         padding: 0em;
+        justify-content: center;
     }
 
     .sub-hero-overlay {
