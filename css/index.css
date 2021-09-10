@@ -86,8 +86,6 @@
     display: flex;
     padding: 1em;
     align-items: center;
-    justify-content: center;
-    align-content: center;
 }
 
 
@@ -351,6 +349,7 @@ html * {
     object-fit: contain;
     width: 100%;
     height: auto;
+    padding: 15%;
 }
 
 .service-slide {
@@ -369,7 +368,7 @@ html * {
     align-content: flex-end;
 }
 
-.social-links a img {
+.social-links a {
     display: flex;
     object-fit: contain;
     width: 30%;
@@ -407,7 +406,7 @@ html * {
     width: 90%;
     min-height: 61vh;
     margin: .3em;
-    padding: 2em;
+    padding: 3em;
     border-radius: 10px;
     background-color: white;
     color: black;
@@ -415,7 +414,6 @@ html * {
     justify-content: center;
     border-style: solid;
     border-color: black;
-
     box-shadow: 5px 5px 5px black;
 }
 
