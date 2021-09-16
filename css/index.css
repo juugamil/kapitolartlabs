@@ -257,6 +257,11 @@ p {
     flex-wrap: wrap;
 }
 
+.portfolio-stack > a {
+    display: flex;
+    width: 33vw;
+}
+
 .portfolio-card {
     display: flex;
     position: relative;
