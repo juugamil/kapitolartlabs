@@ -251,21 +251,20 @@ p {
 .portfolio-stack {
     display: flex;
     position: relative;
+    align-content: center;
+    align-items: center;
     flex: 3 1 100%;
     justify-content: space-evenly;
 }
 
 .portfolio-card {
     display: flex;
+    position: relative;
     width: 33%;
     height: 30vh;
     margin: .5em;
     background-image: url(/img/hero-image.jpeg);
     background-size: contain;
-}
-
-.portfolio-stack > a {
-    width: 30%;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
