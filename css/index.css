@@ -662,6 +662,10 @@ p {
         text-decoration: none;
     }
 
+    p {
+        font-size: 1em;
+    }
+
     .portfolio-stack {
         display: flex;
         flex-direction: column;
