@@ -257,8 +257,8 @@ p {
     flex-wrap: wrap;
 }
 
-.portfolio-stack > a {
-    display: flex;
+.portfolio-card > a {
+    width: 100%;
 }
 
 .portfolio-card {
