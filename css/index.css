@@ -264,8 +264,8 @@ p {
     background-size: contain;
 }
 
-.portfolio-card > a {
-    width: 100%;
+.portfolio-row > a {
+    width: 30%;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
