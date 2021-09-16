@@ -259,7 +259,6 @@ p {
 
 .portfolio-stack > a {
     display: flex;
-    width: 33vw;
 }
 
 .portfolio-card {
