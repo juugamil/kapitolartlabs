@@ -264,7 +264,7 @@ p {
     background-size: contain;
 }
 
-.portfolio-row > a {
+.portfolio-stack > a {
     width: 30%;
 }
 
