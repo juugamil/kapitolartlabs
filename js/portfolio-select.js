@@ -7,25 +7,25 @@ $(document).ready(function () {
             $("#category-intdesign").show();
             $("#category-workshops").show();
         } else if (val === "1") {
+            $("#category-webdesign").hide();
+            $("#category-intdesign").hide();
+            $("#category-workshops").hide();
             $("#category-branding").show();
-            $("#category-webdesign").hide();
-            $("#category-intdesign").hide();
-            $("#category-workshops").hide();
         } else if (val === "2") {
+            $("#category-branding").hide();
+            $("#category-intdesign").hide();
+            $("#category-workshops").hide();
             $("#category-webdesign").show();
-            $("#category-branding").hide();
-            $("#category-intdesign").hide();
-            $("#category-workshops").hide();
         } else if (val === "3") {
-            $("#category-intdesign").show();
             $("#category-branding").hide();
             $("#category-webdesign").hide();
             $("#category-workshops").hide();
+            $("#category-intdesign").show();
         } else if (val === "4") {
-            $("#category-workshops").show();
             $("#category-branding").hide();
             $("#category-intdesign").hide();
             $("#category-webdesign").hide();
+            $("#category-workshops").show();
         };
     });
 });
