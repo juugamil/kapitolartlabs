@@ -7,6 +7,6 @@ $(document).ready(function () {
             console.log(valid);
         } else {
             $("portfolio-card").addClass("hide");
-        }
+        };
     });
 });
