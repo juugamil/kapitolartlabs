@@ -432,6 +432,7 @@ p {
 
 .slideshow-row {
     display: flex;
+    height: 75vh;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
