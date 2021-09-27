@@ -26,11 +26,6 @@ $(document).ready(function () {
             $("#category-branding").hide();
             $("#category-intdesign").hide();
             $("#category-webdesign").hide();
-        } else if (val === "5") {
-            $("#category-webdesign").show();
-            $("#category-branding").show();
-            $("#category-intdesign").show();
-            $("#category-workshops").show();
         };
     });
 });
