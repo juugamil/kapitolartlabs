@@ -119,7 +119,7 @@
 }
 
 .hide {
-    display: none;
+    display: none !important;;
 }
 
 .home-hero-overlay {
