@@ -3,7 +3,7 @@ $(document).ready(function () {
         var val = $(this).val();
         var valid = "#" + val; 
         if (val === $('portfolio-card').attr('id')){
-            valid.addClass("visible");
+            $(valid).addClass("visible");
         } else {
             $(".portfolio-card").addClass("hide");
         }
