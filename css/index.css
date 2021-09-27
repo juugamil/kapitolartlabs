@@ -299,10 +299,12 @@ p {
 .quote {
     flex: 1 1 100%;
     position: relative;
-    height: 20%;
+    height: 10em;
     clear: both;
     padding: 2em 1em 1em 2em;
     color: white;
+    align-content: center;
+    justify-content: center;
     background-color: #ee6e3c;
     text-align: center;
 }
