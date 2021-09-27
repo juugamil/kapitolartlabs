@@ -4,6 +4,7 @@ $(document).ready(function () {
         var valid = "#" + val; 
         if (val === $('portfolio-card').attr('id')){
             $(valid).addClass("visible");
+            console.log(valid);
         } else {
             $(".portfolio-card").addClass("hide");
         }
