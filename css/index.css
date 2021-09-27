@@ -98,28 +98,24 @@
 
 .headline h1 {
     text-align: center;
-    color: white;
     font-family: EastmanCondensedTrial-Extrabold, Helvetica;
     font-size: 5em;
     opacity: 1;
+    color: white;
 }
 
 .h2 {
     font-family: EastmanCondensedTrial-Extrabold;
     text-transform: uppercase;
-    color: black;
 }
 
 .h3 {
     font-family: EastmanCondensedTrial-Medium;
     text-transform: uppercase;
-    color: black;
 }
 
 .h4 {
     font-family: EastmanCondensedTrial-MediumItalic;
-    color: white;
-
 }
 
 .hide {
