@@ -433,7 +433,7 @@ p {
     display: flex;
     height: auto;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .visible {
