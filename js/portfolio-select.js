@@ -6,7 +6,10 @@ $(document).ready(function () {
                 if (optionValue) {
                     $(".portfolio-card").not("#" + optionValue).hide();
                     $("#" + optionValue).show();
-                } else {
+                } else if (optionValue = "All") {
+                    $(".portfolio-card").show();
+                }
+                else {
                     $(".portfolio-card").hide();
                 }
             });
