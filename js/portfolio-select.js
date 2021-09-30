@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var div = document.getElementById('portfolio-stack');
-    var divs = div.getElementsByTagName('portfolio-card');
+    var divs = div.getElementsByTagName('div');
     var divArray = [];
     for (var i = 0; i < divs.length; i += 1) {
         divArray.push(divs[i].innerHTML);
