@@ -4,7 +4,7 @@ $(document).ready(function () {
         if (val === "0") {
             $("div.portfolio-card").show();
         } else if (val === "1") {
-            $(".portfolio-card").hide
+            $(".portfolio-card").hide();
             $("#1").show();
         } else if (val === "2") {
             $("#category-webdesign").show();
