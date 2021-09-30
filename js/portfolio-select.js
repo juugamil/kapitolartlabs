@@ -4,17 +4,25 @@ $(document).ready(function () {
         if (val === "0") {
             $("div.portfolio-card").show();
         } else if (val === "1") {
-            $("div.portfolio-card").hide();
             $("#category-branding").show();
+            $("#category-webdesign").hide();
+            $("#category-intdesign").hide();
+            $("#category-workshops").hide();
         } else if (val === "2") {
-            $("div.portfolio-card").hide();
             $("#category-webdesign").show();
+            $("#category-branding").hide();
+            $("#category-intdesign").hide();
+            $("#category-workshops").hide();
         } else if (val === "3") {
-            $("div.portfolio-card").hide();
             $("#category-intdesign").show();
+            $("#category-branding").hide();
+            $("#category-webdesign").hide();
+            $("#category-workshops").hide();
         } else if (val === "4") {
-            $("div.portfolio-card").hide();
             $("#category-workshops").show();
+            $("#category-branding").hide();
+            $("#category-intdesign").hide();
+            $("#category-webdesign").hide();
         };
     });
 });
