@@ -4,10 +4,8 @@ $(document).ready(function () {
         if (val === "0") {
             $("div.portfolio-card").show();
         } else if (val === "1") {
-            $("#category-branding").show();
-            $("#category-webdesign").hide();
-            $("#category-intdesign").hide();
-            $("#category-workshops").hide();
+            $(".portfolio-card").hide
+            $("#1").show();
         } else if (val === "2") {
             $("#category-webdesign").show();
             $("#category-branding").hide();
