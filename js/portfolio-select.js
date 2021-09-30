@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var div = document.getElementById('#portfolio-stack');
+    var div = document.getElementById('portfolio-stack');
     var divs = div.getElementsByTagName('portfolio-card');
     var divArray = [];
     for (var i = 0; i < divs.length; i += 1) {
