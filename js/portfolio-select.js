@@ -10,8 +10,7 @@ $(document).ready(function () {
 
     $("#radiusSelect").change(function () {
         var val = $(this).val();
-
-        for (var i = 0; i < divArray.length; i++) {
+        for (i = 0; i < divArray.length; i++) {
             if (val == "All") {
                 return divArray[i];
             } else if (val == $('.portfolio-card').attr('id')) {
