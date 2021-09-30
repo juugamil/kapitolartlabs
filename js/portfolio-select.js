@@ -16,6 +16,7 @@ $(document).ready(function () {
             if (val == "All") {
                 return divArray[i];
             } else if (val == divArray[i].attr('id')) {
+                console.log(divArray[i].attr(val));
                 return divArray[i].attr(val);
             } else {
                 return "Nothing to display";
