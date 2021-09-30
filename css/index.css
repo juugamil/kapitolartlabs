@@ -411,7 +411,7 @@ p {
 .slideshow {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    height: 45em;
     margin: .3em;
     padding: 3em;
     border-radius: 10px;
