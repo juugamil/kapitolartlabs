@@ -6,7 +6,7 @@ $(document).ready(function () {
         divArray.push(divs[i].innerHTML);
     };
 
-    console.log(divArray);
+    console.log(divArray[0]);
 
     $("#radiusSelect").change(function () {
         var val = $(this).val();
