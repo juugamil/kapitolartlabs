@@ -412,7 +412,6 @@ p {
     display: flex;
     flex-direction: column;
     width: 90%;
-    min-height: 61vh;
     margin: .3em;
     padding: 3em;
     border-radius: 10px;
@@ -432,7 +431,7 @@ p {
 
 .slideshow-row {
     display: flex;
-    height: 75vh;
+    height: auto;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
