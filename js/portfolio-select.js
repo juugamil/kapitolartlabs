@@ -7,7 +7,7 @@ $(document).ready(function () {
                     $(".portfolio-card").not("." + optionValue).hide();
                     $("." + optionValue).show();
                 } else if (optionValue = "All") {
-                    $(".portfolio-card").show();
+                    $("div.portfolio-card").show();
                 }
                 else {
                     $(".portfolio-card").hide();
