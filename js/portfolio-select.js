@@ -10,6 +10,7 @@ $(document).ready(function () {
 
     $("#radiusSelect").change(function () {
         var val = $(this).val();
+        console.log(divArray);
 
         for (i = 0; i < divArray.length; i++) {
             if (val == "All") {
