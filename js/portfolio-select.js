@@ -10,11 +10,12 @@ $(document).ready(function () {
 
     $("#radiusSelect").change(function () {
         var val = $(this).val();
+
         for (i = 0; i < divArray.length; i++) {
             if (val == "All") {
                 return divArray[i];
-            } else if (val == $('.portfolio-card').attr('id')) {
-                return divArray[i];
+            } else if (val == divArray[i].attr('id')) {
+                return divArray[i].attr(val);
             } else {
                 return "Nothing to display";
             }
