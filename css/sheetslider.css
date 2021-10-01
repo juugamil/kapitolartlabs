@@ -45,13 +45,14 @@
 /* Estilos para los items
 ------------------------------------*/
 .sh__item {
-    display: block;
+    display: flex;
     position: absolute;
     text-align: center;
     top: 0;left: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;
+    justify-content: center;
 }
 .sh__item img {
     width: auto;
