@@ -747,8 +747,7 @@ p {
 
     .slideshow {
         width: 100%;
-        padding: .5;
-        min-height: 10%;
+        height: auto;
     }
 
     .slideshow-row {
