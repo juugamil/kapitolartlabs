@@ -345,7 +345,7 @@ p {
 
 .service-icon {
     display: flex;
-    padding: 2em;
+    padding: 1em;
 }
 
 .service-icon img {
@@ -413,7 +413,7 @@ p {
     flex-direction: column;
     height: 45em;
     margin: .3em;
-    padding: 3em;
+    padding: 2em;
     border-radius: 10px;
     background-color: white;
     color: black;
