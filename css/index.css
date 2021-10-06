@@ -149,9 +149,8 @@ html * {
 }
 
 .logo-body {
-    display: flex;
     position: relative;
-    height: 100%;
+    height: 60%;
     justify-content: flex-start;
     align-content: center;
     align-items: stretch;
@@ -159,7 +158,7 @@ html * {
 
 .logo-body img {
     display: flex;
-    max-height: 200px;
+    max-height: 46px;
 }
 
 .logo-wrap {
