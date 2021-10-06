@@ -157,7 +157,7 @@ html * {
 
 .logo-body img {
     display: flex;
-    max-height: 65px;
+    max-height: 40px;
 }
 
 .logo-wrap {
