@@ -149,16 +149,16 @@ html * {
 }
 
 .logo-body {
+    display: flex;
     position: relative;
-    height: 60%;
+    height: 100%;
     justify-content: flex-start;
     align-content: center;
-    align-items: stretch;
 }
 
 .logo-body img {
     display: flex;
-    max-height: 46px;
+    max-height: 200px;
 }
 
 .logo-wrap {
