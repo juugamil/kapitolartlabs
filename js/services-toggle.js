@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $('.services-list-block').on('click', function () {
-    $(this).children().removeClass("hide");
-    $('.block_header span').not($(this)).addClass("visible");
+  $(".services-list-block").on('click', function () {
+    $('.service-description').removeClass("show"); 
+    $(this).children().addClass("show");
   });
 });
