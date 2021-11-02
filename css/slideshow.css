@@ -246,6 +246,127 @@ http://stackoverflow.com/a/34696029/383904
     transform: translateX(-300%);
     
 }
+
+#s9:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s10:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s11:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s12:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
+#s13:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s14:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s15:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s16:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
+#s17:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s18:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s19:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s20:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
+#s21:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s22:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s23:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s24:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
+#s25:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s26:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s27:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s28:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
+#s29:target~.slider {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s30:target~.slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s31:target~.slider {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s32:target~.slider {
+    transform: translateX(-300%);
+    
+}
+
 /* YOU'RE THE DESIGNER! 
    ____________________
    All above was mainly to get it working :)
