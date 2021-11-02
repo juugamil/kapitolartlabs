@@ -22,6 +22,7 @@ http://stackoverflow.com/a/34696029/383904
     display: flex;
     position: relative;
     overflow: hidden;
+    padding-top: 5%;
     height: 75vh;
     justify-content: center;
 }
@@ -34,6 +35,7 @@ http://stackoverflow.com/a/34696029/383904
     white-space: nowrap;
     font-size: 0;
     transition: 0.8s;
+    padding-top: 7%;
 }
 
 /* SLIDES */
@@ -569,7 +571,7 @@ http://stackoverflow.com/a/34696029/383904
 }
 
 .CSSgal .slider h2 {
-    margin-top: 60vh;
+    margin-top: 43vh;
     font-weight: 200;
     letter-spacing: -0.06em;
     word-spacing: 0.2em;
