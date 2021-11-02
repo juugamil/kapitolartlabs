@@ -298,6 +298,101 @@ http://stackoverflow.com/a/34696029/383904
     visibility: visible;
 }
 
+#s9:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s10:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s11:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s12:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s13:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s14:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s15:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s16:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s17:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s18:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s19:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s20:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s21:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s22:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s23:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s24:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s25:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s26:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s27:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s28:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s29:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s30:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s31:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s32:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
 
 
 /* SLIDER ANIMATION POSITIONS */
