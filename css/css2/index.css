@@ -310,6 +310,11 @@ p {
     display: none;
 }
 
+.service-description img {
+    display: flex;
+    width: 100%;
+}
+
 .services {
     position: relative;
     flex: 1 1 50%;
@@ -754,6 +759,11 @@ p {
 
     .service-description {
         flex-direction: column;
+    }
+
+    .service-description img {
+        display: flex;
+        width: 100%;
     }
 
     .slideshow {
