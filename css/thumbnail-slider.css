@@ -36,7 +36,7 @@ ul#myGallery img {
     background-color: rgba(255, 0, 0, 0.85);
     cursor: pointer;
     text-align: center;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 #thumbnail-slider {
