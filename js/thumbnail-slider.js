@@ -284,7 +284,7 @@ function ThumbnailSlider(a) {
                                 c = d[f].backgroundImage;
                                 if (c && c.indexOf("url(") != -1) c = c.substring(4, c[e] - 1).replace(/[\'\"]/g, "")
                             }
-                            if (d[m].tagName != "A") d[f].cursor = a.h ? "pointer" : "default";
+                            if (d[m].tagName != "a") d[f].cursor = a.h ? "pointer" : "default";
                             if (c) {
                                 b.thumb = d;
                                 b.thumbSrc = c;
