@@ -196,7 +196,7 @@ html * {
     padding: 1.5em;
     margin: 0px;
     background-color: none;
-    z-index: 3;
+    z-index: 0;
     align-items: center;
     align-content: center;
     height: 5em;
@@ -409,7 +409,7 @@ p {
     object-fit: cover;
     position: fixed;
     background-color: #5b68e3;
-    z-index: 0;
+    z-index: -1;
     justify-content: center;
 }
 
