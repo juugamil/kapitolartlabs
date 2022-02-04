@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/css2/client.css">
   <link rel="stylesheet" href="css/slideshow.css">
   <link rel="shortcut icon" type="image/jpg" href="/img/favicon.png" />
+  <script src="/js/thumbnail-slider.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -92,44 +93,19 @@
           design, & more. Most modern companies are taking a brand-based approach to building their businesses, in order
           to separate them from competitors & establish a level of credibility and trust with their audience. Consumers
           spend their money with companies that have better branding & marketing tools and strategy.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s1"></s>
-            <s id="s2"></s>
-            <s id="s3"></s>
-            <s id="s4"></s>
-
-            <div class="slider">
-              <div style="background-image: url(/img/CopyConnectionLLCLogo.png);">
-                <h2>Copy Connection</h2>
-              </div>
-              <div style="background-image: url(/img/DeBarryLogo.png);">
-                <h2>DeBarry Financial Services</h2>
-              </div>
-              <div style="background-image: url(/img/Hundley.png);">
-                <h2>Hundly Cleaning Services</h2>
-              </div>
-              <div style="background-image: url(/img/OAT.png);">
-                <h2>OAT Foundation</h2>
-              </div>
+          <div id="thumbnail-slider" style="display:none;">
+            <div class="inner">
+              (...ommitted for brevity)
             </div>
-
-            <div class="prevNext">
-              <div><a href="#s4"></a><a href="#s2"></a></div>
-              <div><a href="#s1"></a><a href="#s3"></a></div>
-              <div><a href="#s2"></a><a href="#s4"></a></div>
-              <div><a href="#s3"></a><a href="#s1"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s1">One</a>
-              <a href="#s2">Two</a>
-              <a href="#s3">Three</a>
-              <a href="#s4">Four</a>
-            </div>
-
+            <div id="closeBtn">CLOSE</div>
           </div>
+          <ul id="myGallery">
+            <li><img src="/img/brand-design/DeBarryLogo.png" /></li>
+            ......
+            <li><img src="/img/brand-design/Hundley-Cleaning-Serviecs---Brand-Identity.png" /></li>
+          </ul>
+
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -147,52 +123,8 @@
           package of your apparel designs. These files are used to communicate the making of your items to mass
           production both domestically & abroad. Our designers have years of apparel design experience & can create
           on-brand designs for your many clothing products.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s5"></s>
-            <s id="s6"></s>
-            <s id="s7"></s>
-            <s id="s8"></s>
 
-            <div class="slider">
-              <div style="background-image: url(/img/PortfolioApparelDesign.jpg);">
-                <h2>MNMTL</h2>
-              </div>
-              <div style="background-image: url(/img/ProductionTechPack.jpg);">
-                <h2>Bel Air Academy</h2>
-              </div>
-              <div style="background-image: url(/img/apparel-design/Apparel\ Design\ 1.png);">
-                <h2></h2>
-              </div>
-              <div style="background-image: url(/img/apparel-design/Apparel\ Design\ 2.png);">
-                <h2></h2>
-              </div>
-              <div style="background-image: url(/img/apparel-design/Apparel\ Design\ 3.png);">
-                <h2></h2>
-              </div>
-              <div style="background-image: url(/img/apparel-design/Apparel\ Design\ 4.png);">
-                <h2></h2>
-              </div>
-              <div style="background-image: url(/img/apparel-design/Apparel\ Design\ 5.png);">
-                <h2></h2>
-              </div>
-            </div>
-
-            <div class="prevNext">
-              <div><a href="#s8"></a><a href="#s6"></a></div>
-              <div><a href="#s5"></a><a href="#s7"></a></div>
-              <div><a href="#s6"></a><a href="#s8"></a></div>
-              <div><a href="#s7"></a><a href="#s5"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s5">One</a>
-              <a href="#s6">Two</a>
-              <a href="#s7">Three</a>
-              <a href="#s8">Four</a>
-            </div>
-          </div>
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -209,36 +141,8 @@
           professionalism & credibility of your business. We can create a wide variety of designs for apparel,
           accessories, & other branded material such as t-shirts, hats, aprons, pants, polo shirts, jackets, ID
           lanyards, business cards, & more.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s9"></s>
-            <s id="s10"></s>
 
-            <div class="slider">
-              <div style="background-image: url(/img/StaffApparel1000x2000.jpeg);">
-                <h2>Only On Occasion</h2>
-              </div>
-              <div style="background-image: url(/img/StaffApparel\(2\)1000x2000.jpeg);">
-                <h2>Kapitol Art Labs</h2>
-              </div>
-              <div style="background-image: url(/img/Staff\ Team\ Apparel.jpeg);">
-                <h2></h2>
-              </div>
-            </div>
-
-            <div class="prevNext">
-              <div><a href="#s12"></a><a href="#s10"></a></div>
-              <div><a href="#s9"></a><a href="#s11"></a></div>
-              <div><a href="#s10"></a><a href="#s12"></a></div>
-              <div><a href="#s11"></a><a href="#s9"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s9">One</a>
-              <a href="#s10">Two</a>
-            </div>
-          </div>
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -257,47 +161,7 @@
           brands & collecting feedback from clients, we’ve seen what investing into quality label design to your
           products can do for a brand. In most cases, you will see an increase of interaction/purchases from your ideal
           customer as well as an increase in general interaction with your company.
-          <p>&nbsp;</p>
-          <img src="/img/Trims1000x2000.jpeg">
-          <p>&nbsp;</p>
 
-          <!--
-          <div class="CSSgal">
-
-            <s id="s13"></s>
-            <s id="s14"></s>
-            <s id="s15"></s>
-            <s id="s16"></s>
-
-            <div class="slider">
-              <div style="background-image: url(/img/Trims1000x2000.jpeg);">
-              </div>
-              <div style="background-image: url();">
-                <h2>Slide 2</h2>
-              </div>
-              <div style="background-image: url();">
-                <h2>Slide 3</h2>
-              </div>
-              <div style="background-image: url();">
-                <h2>Slide 4</h2>
-              </div>
-            </div>
-
-            <div class="prevNext">
-              <div><a href="#s16"></a><a href="#s14"></a></div>
-              <div><a href="#s13"></a><a href="#s15"></a></div>
-              <div><a href="#s14"></a><a href="#s16"></a></div>
-              <div><a href="#s15"></a><a href="#s13"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s13">1</a>
-              <a href="#s14">2</a>
-              <a href="#s15">3</a>
-              <a href="#s16">4</a>
-            </div>
-          </div>
-        -->
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -312,48 +176,7 @@
           designers & artists have extensive years of drawing & fine art experience. We’d consider illustration to be a
           specialty of ours, & can apply it to various forms of branded content, products, book design, & more.
 
-          <p>&nbsp;</p>
-          <img src="/img/Illustrations1000x2000Artboard 3.jpeg">
-          <p>&nbsp;</p>
 
-          <!--
-            <div class="CSSgal">
-
-              <s id="s17"></s>
-              <s id="s18"></s>
-              <s id="s19"></s>
-              <s id="s20"></s>
-    
-              <div class="slider">
-                <div style="background-image: url(/img/Illustrations1000x2000Artboard\ 3.jpeg);">
-                  <h2></h2>
-                </div>
-                <div style="background-image: url();">
-                  <h2>Slide 2</h2>
-                </div>
-                <div style="background-image: url();">
-                  <h2>Slide 3</h2>
-                </div>
-                <div style="background-image: url();">
-                  <h2>Slide 4</h2>
-                </div>
-              </div>
-    
-              <div class="prevNext">
-                <div><a href="#s20"></a><a href="#s18"></a></div>
-                <div><a href="#s17"></a><a href="#s19"></a></div>
-                <div><a href="#s18"></a><a href="#s20"></a></div>
-                <div><a href="#s19"></a><a href="#s17"></a></div>
-              </div>
-    
-              <div class="bullets">
-                <a href="#s17">1</a>
-                <a href="#s18">2</a>
-                <a href="#s19">3</a>
-                <a href="#s20">4</a>
-              </div>
-            </div>
-            -->
 
           <p>&nbsp;</p>
           <center><a href="/contact.html">
@@ -371,44 +194,9 @@
           easy-to-reference guide for building out your next location. We can implement new retail solutions to your
           storefront design to boost sales & even interactions with your website. Taking it a step further & pushing the
           envelope on your next space design is our goal.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s21"></s>
-            <s id="s22"></s>
 
-            <div class="slider">
-              <div style="background-image: url(/img/BigBankStore\(exterior\)Final10241024_1.jpg);"">
-                <h2>Big Bank Couture</h2>
-              </div>
-              <div style="background-image: url(/img/BigBankStore\(interior\).png);">
-                <h2>Big Bank Couture</h2>
-              </div>
-              <div style="background-image: url(/img/IMG-1132.jpg);">
-                <h2>Big Bank Couture</h2>
-              </div>
-              <div style="background-image: url(/img/IMG-1133.jpg);">
-                <h2>Big Bank Couture</h2>
-              </div>
-              <div style="background-image: url(/img/IMG-1146.jpg);">
-                <h2>Big Bank Couture</h2>
-              </div>
-            </div>
 
-            <div class="prevNext">
-              <div><a href="#s24"></a><a href="#s22"></a></div>
-              <div><a href="#s21"></a><a href="#s23"></a></div>
-              <div><a href="#s22"></a><a href="#s24"></a></div>
-              <div><a href="#s23"></a><a href="#s21"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s21">One</a>
-              <a href="#s22">Two</a>
-              <a href="#s23">Three</a>
-              <a href="#s24">Four</a>
-            </div>
-          </div>
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -425,34 +213,8 @@
           your next event. We understand, especially concerning event coordinating; that it’s not just what you do, but
           how you do it. You’ll be able to present your event in the most effective way possible, which opens the door
           for a higher turnout and the ability to coordinate with larger sponsors & partners.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s25"></s>
-            <s id="s26"></s>
 
-            <div class="slider">
-              <div style="background-image: url(/img/EventBranding1000x2000Artboard\ 1.jpeg);">
-                <h2>Serene Culture</h2>
-                <p></p>
-              </div>
-              <div style="background-image: url(img/EventBranding1000x2000Artboard\ 3.jpeg);">
-                <h2>Blank Canvas</h2>
-              </div>
-            </div>
-
-            <div class="prevNext">
-              <div><a href="#s28"></a><a href="#s26"></a></div>
-              <div><a href="#s25"></a><a href="#s27"></a></div>
-              <div><a href="#s26"></a><a href="#s28"></a></div>
-              <div><a href="#s27"></a><a href="#s25"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s25">One</a>
-              <a href="#s26">Two</a>
-            </div>
-          </div>
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -460,39 +222,15 @@
         </div>
       </div>
 
+
       <div class="services-list-block" id="services-list-block">
         <h3 class="h3">Web Design & Development</h3>
         <div class="service-description" id="#service-description">
           From a graphic mockup to a fully developed website: we bring your business to life online. We tailor your
           website to suit your needs, your business, and your brand. From small business to major corporations, we can
           code and develop what you need to make your business services accessible online.
-          <div class="CSSgal">
 
-            <!-- Don't wrap targets in parent -->
-            <s id="s29"></s>
-            <s id="s30"></s>
 
-            <div class="slider">
-              <div style="background-image: url(/img/copyconnection3.png);">
-                <h2>Copy Connection</h2>
-              </div>
-              <div style="background-image: url(/img/Hundley-Cleaning-Serviecs---Brand-Identity.png);">
-                <h2>Hundley Cleaning Services</h2>
-              </div>
-            </div>
-
-            <div class="prevNext">
-              <div><a href="#s32"></a><a href="#s30"></a></div>
-              <div><a href="#s29"></a><a href="#s31"></a></div>
-              <div><a href="#s30"></a><a href="#s32"></a></div>
-              <div><a href="#s31"></a><a href="#s29"></a></div>
-            </div>
-
-            <div class="bullets">
-              <a href="#s29">One</a>
-              <a href="#s30">Two</a>
-            </div>
-          </div>
           <p>&nbsp;</p>
           <center><a href="/contact.html">
               <div type="button" class="btn btn-secondary">Contact us</div>
@@ -524,35 +262,24 @@
     </div>
   </div>
 
-  <script src="" async defer>
-    $('.carousel').carousel({
-      interval: 2000
-    })
-  </script>
-
   <script>
-    $(document).ready(function () {
-      $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 4
-          }
-        }, {
-          breakpoint: 520,
-          settings: {
-            slidesToShow: 3
-          }
-        }]
-      });
-    });
+    var thumbSldr = document.getElementById("thumbnail-slider");
+    var closeBtn = document.getElementById("closeBtn");
+    var galleryImgs = document.getElementById("myGallery").getElementsByTagName("li");
+    for (var i = 0; i < galleryImgs.length; i++) {
+      galleryImgs[i].index = i;
+      galleryImgs[i].onclick = function (e) {
+        var li = this;
+        thumbSldr.style.display = "block";
+        mcThumbnailSlider.init(li.index);
+      };
+    }
+
+    thumbSldr.onclick = closeBtn.onclick = function (e) {
+      //This event will be triggered only when clicking the area outside
+      //the thumbs or clicking the CLOSE button
+      thumbSldr.style.display = "none";
+    };
   </script>
 
   <script src="/js/nav-toggle.js" async defer></script>
