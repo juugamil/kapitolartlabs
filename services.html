@@ -129,15 +129,15 @@
           </div>
           
           <script>
-            var slideIndex = 1;
-            displaySlide1(slideIndex);
+            var slideIndex1 = 1;
+            displaySlide1(slideIndex1);
 
             function moveSlides1(n) {
-              displaySlide1(slideIndex += n);
+              displaySlide1(slideIndex1 += n);
             }
 
             function activeSlide1(n) {
-              displaySlide1(slideIndex = n);
+              displaySlide1(slideIndex1 = n);
             }
 
             /* Main function */
@@ -149,11 +149,11 @@
                 document.getElementsByClassName("dot-brand");
 
               if (n > totalslides.length) {
-                slideIndex = 1;
+                slideIndex1 = 1;
               }
 
               if (n < 1) {
-                slideIndex = totalslides.length;
+                slideIndex1 = totalslides.length;
               }
               for (i = 0; i < totalslides.length; i++) {
                 totalslides[i].style.display = "none";
@@ -162,8 +162,8 @@
                 totaldots[i].className =
                   totaldots[i].className.replace(" active", "");
               }
-              totalslides[slideIndex - 1].style.display = "flex";
-              totaldots[slideIndex - 1].className += " active";
+              totalslides[slideIndex1 - 1].style.display = "flex";
+              totaldots[slideIndex1 - 1].className += " active";
             }
           </script>
     
@@ -273,15 +273,15 @@
           </div>
           
           <script>
-            var slideIndex = 1;
-            displaySlide2(slideIndex);
+            var slideIndex2 = 1;
+            displaySlide2(slideIndex2);
 
             function moveSlides2(n) {
-              displaySlide2(slideIndex += n);
+              displaySlide2(slideIndex2 += n);
             }
 
             function activeSlide2(n) {
-              displaySlide2(slideIndex = n);
+              displaySlide2(slideIndex2 = n);
             }
 
             /* Main function */
@@ -293,11 +293,11 @@
                 document.getElementsByClassName("dot-apparel");
 
               if (n > totalslides.length) {
-                slideIndex = 1;
+                slideIndex2 = 1;
               }
 
               if (n < 1) {
-                slideIndex = totalslides.length;
+                slideIndex2 = totalslides.length;
               }
               for (j = 0; j < totalslides.length; j++) {
                 totalslides[j].style.display = "none";
@@ -306,8 +306,8 @@
                 totaldots[j].className =
                   totaldots[j].className.replace(" active", "");
               }
-              totalslides[slideIndex - 1].style.display = "flex";
-              totaldots[slideIndex - 1].className += " active";
+              totalslides[slideIndex2 - 1].style.display = "flex";
+              totaldots[slideIndex2 - 1].className += " active";
             }
           </script>
     
