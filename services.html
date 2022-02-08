@@ -338,15 +338,15 @@
         <div class="image-slider">
           <!-- Image container of the image slider -->
           <div class="image-container">
-            <div class="slide apparel-slide" style="display: flex;">
+            <div class="slide team-slide" style="display: flex;">
               <div class="slideNumber">1</div>
               <img src="img/staff-apparel/staff-apparel-1.jpeg">
             </div>
-            <div class="slide apparel-slide" style="display: none;">
+            <div class="slide team-slide" style="display: none;">
               <div class="slideNumber">2</div>
               <img src="img/staff-apparel/staff-apparel-2.jpeg">
             </div>
-            <div class="slide apparel-slide" style="display: none;">
+            <div class="slide team-slide" style="display: none;">
               <div class="slideNumber">3</div>
               <img src="img/staff-apparel/staff-apparel-3.jpeg">
             </div>
@@ -363,11 +363,11 @@
           <br>
 
           <div style="text-align:center">
-            <span class="footerdot dot-apparel" onclick="activeSlide3(1)">
+            <span class="footerdot dot-team" onclick="activeSlide3(1)">
             </span>
-            <span class="footerdot dot-apparel" onclick="activeSlide3(2)">
+            <span class="footerdot dot-team" onclick="activeSlide3(2)">
             </span>
-            <span class="footerdot dot-apparel" onclick="activeSlide3(3)">
+            <span class="footerdot dot-team" onclick="activeSlide3(3)">
             </span>
           </div>
           
@@ -387,9 +387,9 @@
             function displaySlide3(n) {
               var k;
               var totalslides =
-                document.getElementsByClassName("apparel-slide");
+                document.getElementsByClassName("team-slide");
               var totaldots =
-                document.getElementsByClassName("dot-apparel");
+                document.getElementsByClassName("dot-team");
 
               if (n > totalslides.length) {
                 slideIndex3 = 1;
