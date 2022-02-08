@@ -288,25 +288,6 @@
     </div>
   </div>
 
-  <script>
-    var thumbSldr = document.getElementById("thumbnail-slider");
-    var closeBtn = document.getElementById("closeBtn");
-    var galleryImgs = document.getElementById("myGallery").getElementsByTagName("li");
-    for (var i = 0; i < galleryImgs.length; i++) {
-      galleryImgs[i].index = i;
-      galleryImgs[i].onclick = function (e) {
-        var li = this;
-        thumbSldr.style.display = "block";
-        mcThumbnailSlider.init(li.index);
-      };
-    }
-
-    thumbSldr.onclick = closeBtn.onclick = function (e) {
-      //This event will be triggered only when clicking the area outside
-      //the thumbs or clicking the CLOSE button
-      thumbSldr.style.display = "none";
-    };
-  </script>
 
   <script src="/js/nav-toggle.js" async defer></script>
   <script src="js/services-toggle.js" async defer></script>

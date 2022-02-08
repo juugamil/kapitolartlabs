@@ -21,6 +21,8 @@
 .previous,
 .next {
     cursor: pointer;
+    display: flex;
+    z-index: 999;
     position: absolute;
     top: 50%;
     padding: 10px;
