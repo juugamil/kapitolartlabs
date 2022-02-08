@@ -83,3 +83,7 @@
 .footerdot:hover {
     background-color: black;
 }
+
+.slide {
+    z-index: -2;
+}
