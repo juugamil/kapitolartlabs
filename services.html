@@ -334,6 +334,85 @@
       <!--Team/Staff Apparel Services Block-->
       <div class="services-list-block" id="services-list-block">
         <h3 class="h3">Team/Staff Apparel</h3>
+
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide team-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/staff-apparel/Staff Team Apparel.jpeg">
+            </div>
+            <div class="slide team-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/staff-apparel/StaffApparel(2)1000x2000.jpeg">
+            </div>
+            <div class="slide team-slide" style="display: none;">
+              <div class="slideNumber">3</div>
+              <img src="img/staff-apparel/StaffApparel1000x2000.jpeg">
+            </div>
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-team" onclick="activeSlide(1)">
+            </span>
+            <span class="footerdot dot-team" onclick="activeSlide(2)">
+            </span>
+            <span class="footerdot dot-team" onclick="activeSlide(3)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex = 1;
+            displaySlide(slideIndex);
+
+            function moveSlides(n) {
+              displaySlide(slideIndex += n);
+            }
+
+            function activeSlide(n) {
+              displaySlide(slideIndex = n);
+            }
+
+            /* Main function */
+            function displaySlide(n) {
+              var i;
+              var totalslides =
+                document.getElementsByClassName("team-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-team");
+
+              if (n > totalslides.length) {
+                slideIndex = 1;
+              }
+
+              if (n < 1) {
+                slideIndex = totalslides.length;
+              }
+              for (i = 0; i < totalslides.length; i++) {
+                totalslides[i].style.display = "none";
+              }
+              for (i = 0; i < totaldots.length; i++) {
+                totaldots[i].className =
+                  totaldots[i].className.replace(" active", "");
+              }
+              totalslides[slideIndex - 1].style.display = "flex";
+              totaldots[slideIndex - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+        
         <div class="service-description" id="#service-description">
           <p>
             Adding Staff Merchandise to your company can improve the overall presentation of your day-to-day operations
