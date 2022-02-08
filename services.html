@@ -286,7 +286,7 @@
 
             /* Main function */
             function displaySlide(m) {
-              var i;
+              var j;
               var totalslides =
                 document.getElementsByClassName("apparel-slide");
               var totaldots =
@@ -299,12 +299,12 @@
               if (m < 1) {
                 slideIndex = totalslides.length;
               }
-              for (i = 0; i < totalslides.length; i++) {
+              for (j = 0; j < totalslides.length; j++) {
                 totalslides[i].style.display = "none";
               }
-              for (i = 0; i < totaldots.length; i++) {
-                totaldots[i].className =
-                  totaldots[i].className.replace(" active", "");
+              for (j = 0; j < totaldots.length; j++) {
+                totaldots[j].className =
+                  totaldots[j].className.replace(" active", "");
               }
               totalslides[slideIndex - 1].style.display = "flex";
               totaldots[slideIndex - 1].className += " active";
