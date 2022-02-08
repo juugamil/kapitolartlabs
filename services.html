@@ -79,6 +79,42 @@
       <div class="services-list-block">
         <h3 class="h3">Branding/Brand Design</h3>
 
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide">
+              <div class="slideNumber">1</div>
+              <img src="https://www.geeksforgeeks.org/wp-content/uploads/html-768x256.png">
+            </div>
+            <div class="slide">
+              <div class="slideNumber">2</div>
+              <img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS-768x256.png">
+            </div>
+            <div class="slide">
+              <div class="slideNumber">3</div>
+              <img src="https://www.geeksforgeeks.org/wp-content/uploads/jquery-banner.png">
+            </div>
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot" onclick="activeSlide(1)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(2)">
+            </span>
+            <span class="footerdot" onclick="activeSlide(3)">
+            </span>
+          </div>
+        </div>
+
         <div class="service-description" id="#service-description">
           <p>
             Whether it’s establishing a brand identity for your business or rebranding your existing one, the Lab can
@@ -95,41 +131,6 @@
             spend their money with companies that have better branding & marketing tools and strategy.
           </p>
 
-          <div class="image-slider">
-            <!-- Image container of the image slider -->
-            <div class="image-container">
-              <div class="slide">
-                <div class="slideNumber">1</div>
-                <img src="https://www.geeksforgeeks.org/wp-content/uploads/html-768x256.png">
-              </div>
-              <div class="slide">
-                <div class="slideNumber">2</div>
-                <img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS-768x256.png">
-              </div>
-              <div class="slide">
-                <div class="slideNumber">3</div>
-                <img src="https://www.geeksforgeeks.org/wp-content/uploads/jquery-banner.png">
-              </div>
-
-              <!-- Next and Previous icon to change images -->
-              <a class="previous" onclick="moveSlides(-1)">
-                <i class="fa fa-chevron-circle-left"></i>
-              </a>
-              <a class="next" onclick="moveSlides(1)">
-                <i class="fa fa-chevron-circle-right"></i>
-              </a>
-            </div>
-            <br>
-
-            <div style="text-align:center">
-              <span class="footerdot" onclick="activeSlide(1)">
-              </span>
-              <span class="footerdot" onclick="activeSlide(2)">
-              </span>
-              <span class="footerdot" onclick="activeSlide(3)">
-              </span>
-            </div>
-          </div>>
 
           <p>&nbsp;</p>
           <center><a href="/contact.html">
