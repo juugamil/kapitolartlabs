@@ -82,23 +82,23 @@
         <div class="image-slider">
           <!-- Image container of the image slider -->
           <div class="image-container">
-            <div class="slide" id="slide-brand" style="display: flex;">
+            <div class="slide brand-slide" style="display: flex;">
               <div class="slideNumber">1</div>
               <img src="img/brand-design/CopyConnectionLLCLogo.png">
             </div>
-            <div class="slide" id="slide-brand" style="display: none;">
+            <div class="slide brand-slide" style="display: none;">
               <div class="slideNumber">2</div>
               <img src="img/brand-design/DeBarryLogo.png">
             </div>
-            <div class="slide" id="slide-brand" style="display: none;">
+            <div class="slide brand-slide" style="display: none;">
               <div class="slideNumber">3</div>
               <img src="img/brand-design/Hundley.png">
             </div>
-            <div class="slide" id="slide-brand" style="display: none;">
+            <div class="slide brand-slide" style="display: none;">
               <div class="slideNumber">4</div>
               <img src="img/brand-design/OAT.png">
             </div>
-            <div class="slide" id="slide-brand" style="display: none;">
+            <div class="slide brand-slide" style="display: none;">
               <div class="slideNumber">5</div>
               <img src="img/brand-design/SneakerTubLogo(Classic).png">
             </div>
@@ -114,15 +114,15 @@
           <br>
 
           <div style="text-align:center">
-            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(1)">
+            <span class="footerdot dot-brand" onclick="activeSlide(1)">
             </span>
-            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(2)">
+            <span class="footerdot dot-brand" onclick="activeSlide(2)">
             </span>
-            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(3)">
+            <span class="footerdot dot-brand" onclick="activeSlide(3)">
             </span>
-            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(4)">
+            <span class="footerdot dot-brand" onclick="activeSlide(4)">
             </span>
-            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(5)">
+            <span class="footerdot dot-brand" onclick="activeSlide(5)">
             </span>
           </div>
           
@@ -142,9 +142,9 @@
             function displaySlide(n) {
               var i;
               var totalslides =
-                document.getElementById("slide-brand");
+                document.getElementsByClassName("brand-slide");
               var totaldots =
-                document.getElementsByID("footerdot-brand");
+                document.getElementsByClassName("dot-brand");
 
               if (n > totalslides.length) {
                 slideIndex = 1;
