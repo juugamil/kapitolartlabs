@@ -116,32 +116,32 @@
           <br>
 
           <div style="text-align:center">
-            <span class="footerdot dot-brand" onclick="activeSlide(1)">
+            <span class="footerdot dot-brand" onclick="activeSlide1(1)">
             </span>
-            <span class="footerdot dot-brand" onclick="activeSlide(2)">
+            <span class="footerdot dot-brand" onclick="activeSlide1(2)">
             </span>
-            <span class="footerdot dot-brand" onclick="activeSlide(3)">
+            <span class="footerdot dot-brand" onclick="activeSlide1(3)">
             </span>
-            <span class="footerdot dot-brand" onclick="activeSlide(4)">
+            <span class="footerdot dot-brand" onclick="activeSlide1(4)">
             </span>
-            <span class="footerdot dot-brand" onclick="activeSlide(5)">
+            <span class="footerdot dot-brand" onclick="activeSlide1(5)">
             </span>
           </div>
           
           <script>
             var slideIndex = 1;
-            displaySlide(slideIndex);
+            displaySlide1(slideIndex);
 
             function moveSlides1(n) {
-              displaySlide(slideIndex += n);
+              displaySlide1(slideIndex += n);
             }
 
-            function activeSlide(n) {
-              displaySlide(slideIndex = n);
+            function activeSlide1(n) {
+              displaySlide1(slideIndex = n);
             }
 
             /* Main function */
-            function displaySlide(n) {
+            function displaySlide1(n) {
               var i;
               var totalslides =
                 document.getElementsByClassName("brand-slide");
