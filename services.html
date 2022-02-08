@@ -363,28 +363,28 @@
           <br>
 
           <div style="text-align:center">
-            <span class="footerdot dot-apparel" onclick="activeSlide(1)">
+            <span class="footerdot dot-apparel" onclick="activeSlide3(1)">
             </span>
-            <span class="footerdot dot-apparel" onclick="activeSlide(2)">
+            <span class="footerdot dot-apparel" onclick="activeSlide3(2)">
             </span>
-            <span class="footerdot dot-apparel" onclick="activeSlide(3)">
+            <span class="footerdot dot-apparel" onclick="activeSlide3(3)">
             </span>
           </div>
           
           <script>
             var slideIndex = 1;
-            displaySlide(slideIndex);
+            displaySlide3(slideIndex);
 
             function moveSlides3(n) {
               displaySlide(slideIndex += n);
             }
 
-            function activeSlide(n) {
-              displaySlide(slideIndex = n);
+            function activeSlide3(n) {
+              displaySlide3(slideIndex = n);
             }
 
             /* Main function */
-            function displaySlide(n) {
+            function displaySlide3(n) {
               var i;
               var totalslides =
                 document.getElementsByClassName("apparel-slide");
