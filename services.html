@@ -114,15 +114,15 @@
           <br>
 
           <div style="text-align:center">
-            <span class="footerdot" onclick="activeSlide(1)">
+            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(1)">
             </span>
-            <span class="footerdot" onclick="activeSlide(2)">
+            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(2)">
             </span>
-            <span class="footerdot" onclick="activeSlide(3)">
+            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(3)">
             </span>
-            <span class="footerdot" onclick="activeSlide(4)">
+            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(4)">
             </span>
-            <span class="footerdot" onclick="activeSlide(5)">
+            <span class="footerdot" id="footerdot-brand" onclick="activeSlide(5)">
             </span>
           </div>
           
@@ -144,7 +144,7 @@
               var totalslides =
                 document.getElementById("slide-brand");
               var totaldots =
-                document.getElementsByClassName("footerdot");
+                document.getElementsByID("footerdot-brand");
 
               if (n > totalslides.length) {
                 slideIndex = 1;
