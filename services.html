@@ -276,27 +276,27 @@
             var slideIndex = 1;
             displaySlide(slideIndex);
 
-            function moveSlides(n) {
-              displaySlide(slideIndex += n);
+            function moveSlides(m) {
+              displaySlide(slideIndex += m);
             }
 
-            function activeSlide(n) {
-              displaySlide(slideIndex = n);
+            function activeSlide(m) {
+              displaySlide(slideIndex = m);
             }
 
             /* Main function */
-            function displaySlide(n) {
+            function displaySlide(m) {
               var i;
               var totalslides =
                 document.getElementsByClassName("apparel-slide");
               var totaldots =
                 document.getElementsByClassName("dot-apparel");
 
-              if (n > totalslides.length) {
+              if (m > totalslides.length) {
                 slideIndex = 1;
               }
 
-              if (n < 1) {
+              if (m < 1) {
                 slideIndex = totalslides.length;
               }
               for (i = 0; i < totalslides.length; i++) {
