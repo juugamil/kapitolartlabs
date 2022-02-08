@@ -148,6 +148,10 @@ html * {
     font-size: 1em;
 }
 
+.image-slider {
+    display: none;
+}
+
 .logo-body {
     position: relative;
     height: 100%;

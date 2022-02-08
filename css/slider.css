@@ -32,6 +32,8 @@
 /* caption decorate */
 .captionText {
     color: #000000;
+    display: flex;
+    z-index: 2;
     font-size: 14px;
     position: absolute;
     padding: 12px 12px;
