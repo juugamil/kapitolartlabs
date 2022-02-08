@@ -94,96 +94,40 @@
             Consumers
             spend their money with companies that have better branding & marketing tools and strategy.
           </p>
+        </div>
 
-          <div class="slice-slider">
-            <div class="navigation navigation--prev">
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                <path fill="#ffffff"
-                  d="M30.55 39.69c.567-.475.645-1.314.17-1.882L20.044 25 30.72 12.19c.474-.566.396-1.408-.17-1.88-.564-.474-1.407-.397-1.88.17L17.28 24.145c-.208.248-.312.552-.312.855s.104.608.31.855L28.67 39.52c.474.566 1.316.642 1.882.17z" />
-                </svg>
-            </div>
-            <div class="navigation navigation--next">
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
-                <path fill="#ffffff"
-                  d="M19.45 10.31c-.567.475-.644 1.314-.17 1.88L29.956 25 19.28 37.81c-.473.566-.396 1.408.17 1.88s1.408.397 1.88-.17l11.39-13.664c.208-.248.312-.552.312-.855s-.104-.607-.31-.854L21.33 10.48c-.474-.566-1.316-.643-1.882-.17z" />
-                </svg>
-            </div>
-
-
-            <div class="slider-container">
-              <div>
-                <div class="slider-slice">
-                  <div class="slider-slice-imageContainer image--0 image--active">
-                    <img src="img/brand-design/copyconnection2.png" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--1">
-                    <img src="img/brand-design/copyconnection3.png" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--2">
-                    <img src="img/brand-design/CopyConnectionLLCLogo.png" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--3">
-                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--4">
-                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
-                  </div>
-                </div>
-                <div class="slider-slice">
-                  <div class="slider-slice-imageContainer image--0 image--active">
-                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--1">
-                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--2">
-                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--3">
-                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--4">
-                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
-                  </div>
-                </div>
-                <div class="slider-slice">
-                  <div class="slider-slice-imageContainer image--0 image--active">
-                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--1">
-                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--2">
-                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--3">
-                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--4">
-                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
-                  </div>
-                </div>
-                <div class="slider-slice">
-                  <div class="slider-slice-imageContainer image--0 image--active">
-                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--1">
-                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--2">
-                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--3">
-                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
-                  </div>
-                  <div class="slider-slice-imageContainer image--4">
-                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slider-overlay"></div>
+        <!-- Image container of the image slider -->
+        <div class="image-container">
+          <div class="slide">
+            <div class="slideNumber">1</div>
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/html-768x256.png">
           </div>
+          <div class="slide">
+            <div class="slideNumber">2</div>
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/CSS-768x256.png">
+          </div>
+          <div class="slide">
+            <div class="slideNumber">3</div>
+            <img src="https://www.geeksforgeeks.org/wp-content/uploads/jquery-banner.png">
+          </div>
+
+          <!-- Next and Previous icon to change images -->
+          <a class="previous" onclick="moveSlides(-1)">
+            <i class="fa fa-chevron-circle-left"></i>
+          </a>
+          <a class="next" onclick="moveSlides(1)">
+            <i class="fa fa-chevron-circle-right"></i>
+          </a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="footerdot" onclick="activeSlide(1)">
+          </span>
+          <span class="footerdot" onclick="activeSlide(2)">
+          </span>
+          <span class="footerdot" onclick="activeSlide(3)">
+          </span>
         </div>
 
         <p>&nbsp;</p>
