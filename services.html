@@ -13,21 +13,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/css2/index.css">
   <link rel="stylesheet" href="css/css2/client.css">
-  <link rel="stylesheet" href="css/slideshow.css">
-  <link rel="stylesheet" href="css/thumbnail-slider.css">
+  <link rel="stylesheet" href="css/slider.css">
   <link rel="shortcut icon" type="image/jpg" href="/img/favicon.png" />
-  <script src="/js/thumbnail-slider.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="/js/youtube.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/slides.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>
@@ -97,46 +91,90 @@
             spend their money with companies that have better branding & marketing tools and strategy.
           </p>
 
-          <div id="thumbnail-slider" style="display:none;">
-            <div class="inner">
-                <ul>
-                  <li>
-                    <a class="thumb" href="/img/brand-design/DeBarryLogo.png"></a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a class="thumb" href="/img/brand-design/copyconnection2.png"></a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a class="thumb" href="/img/brand-design/copyconnection3.png"></a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a class="thumb" href="/img/brand-design/CopyConnectionLLCLogo.png"></a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a class="thumb" href="/img/brand-design/Hundley-Cleaning-Serviecs---Brand-Identity.png"></a>
-                  </li>
-                </ul>
+          <div class="slice-slider">
+            <div class="navigation navigation--prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path fill="#ffffff" d="M30.55 39.69c.567-.475.645-1.314.17-1.882L20.044 25 30.72 12.19c.474-.566.396-1.408-.17-1.88-.564-.474-1.407-.397-1.88.17L17.28 24.145c-.208.248-.312.552-.312.855s.104.608.31.855L28.67 39.52c.474.566 1.316.642 1.882.17z"/></svg>
             </div>
-            <div id="closeBtn">CLOSE</div>
+            <div class="navigation navigation--next">     
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path fill="#ffffff" d="M19.45 10.31c-.567.475-.644 1.314-.17 1.88L29.956 25 19.28 37.81c-.473.566-.396 1.408.17 1.88s1.408.397 1.88-.17l11.39-13.664c.208-.248.312-.552.312-.855s-.104-.607-.31-.854L21.33 10.48c-.474-.566-1.316-.643-1.882-.17z"/></svg>
+            </div>
+            
+          
+            <div class="slider-container">
+              <div>
+                <div class="slider-slice">
+                  <div class="slider-slice-imageContainer image--0 image--active">
+                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--1">
+                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--2">
+                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--3">
+                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--4">
+                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider-slice">
+                  <div class="slider-slice-imageContainer image--0 image--active">
+                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--1">
+                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--2">
+                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--3">
+                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--4">
+                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider-slice">
+                  <div class="slider-slice-imageContainer image--0 image--active">
+                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--1">
+                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--2">
+                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--3">
+                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--4">
+                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider-slice">
+                  <div class="slider-slice-imageContainer image--0 image--active">
+                    <img src="https://i.imgsafe.org/d24eba4717.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--1">
+                    <img src="https://i.imgsafe.org/d24e54bee3.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--2">
+                    <img src="https://i.imgsafe.org/d24ed4cc27.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--3">
+                    <img src="https://i.imgsafe.org/d24f00e5ee.jpg" alt="">
+                  </div>
+                  <div class="slider-slice-imageContainer image--4">
+                    <img src="https://i.imgsafe.org/d24d4804af.jpg" alt="">
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="slider-overlay"></div>
+            </div>
           </div>
-          <ul id="myGallery">
-            <li><img src="/img/brand-design/DeBarryLogo.png" /></li>
-            <li><img src="/img/brand-design/copyconnection2.png" /></li>
-            <li><img src="/img/brand-design/copyconnection3.png" /></li>
-            <li><img src="/img/brand-design/CopyConnectionLLCLogo.png" /></li>
-            <li><img src="/img/brand-design/Hundley-Cleaning-Serviecs---Brand-Identity.png" /></li>
-            <li><img src="/img/brand-design/Hundley.png" /></li>
-            <li><img src="/img/brand-design/OAT.png" /></li>
-            <li><img src="/img/brand-design/SneakerTubLogo(Classic).png" /></li>
-          </ul>
 
           <p>&nbsp;</p>
           <center><a href="/contact.html">
