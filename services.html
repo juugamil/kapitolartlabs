@@ -82,23 +82,23 @@
         <div class="image-slider">
           <!-- Image container of the image slider -->
           <div class="image-container">
-            <div class="slide brand" style="display: flex;">
+            <div class="slide" id="slide-brand" style="display: flex;">
               <div class="slideNumber">1</div>
               <img src="img/brand-design/CopyConnectionLLCLogo.png">
             </div>
-            <div class="slide brand" style="display: none;">
+            <div class="slide" id="slide-brand" style="display: none;">
               <div class="slideNumber">2</div>
               <img src="img/brand-design/DeBarryLogo.png">
             </div>
-            <div class="slide brand" style="display: none;">
+            <div class="slide" id="slide-brand" style="display: none;">
               <div class="slideNumber">3</div>
               <img src="img/brand-design/Hundley.png">
             </div>
-            <div class="slide brand" style="display: none;">
+            <div class="slide" id="slide-brand" style="display: none;">
               <div class="slideNumber">4</div>
               <img src="img/brand-design/OAT.png">
             </div>
-            <div class="slide brand" style="display: none;">
+            <div class="slide" id="slide-brand" style="display: none;">
               <div class="slideNumber">5</div>
               <img src="img/brand-design/SneakerTubLogo(Classic).png">
             </div>
@@ -142,7 +142,7 @@
             function displaySlide(n) {
               var i;
               var totalslides =
-                document.getElementsByClassName("slide brand");
+                document.getElementById("slide-brand");
               var totaldots =
                 document.getElementsByClassName("footerdot");
 
