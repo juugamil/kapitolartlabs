@@ -1,3 +1,4 @@
+function getPics() {}
 const imgs = document.querySelectorAll('.services-list-block > .image-slider > .slide img');
 const fullPage = document.querySelector('#fullpage');
 
