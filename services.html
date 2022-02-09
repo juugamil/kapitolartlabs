@@ -434,8 +434,87 @@
         </div>
       </div>
 
+      <!--Tagging Service Block-->
       <div class="services-list-block" id="services-list-block">
         <h3 class="h3">Tagging & Labeling</h3>
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide tagging-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/staff-apparel/staff-apparel-1.jpeg">
+            </div>
+            <div class="slide tagging-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/staff-apparel/staff-apparel-2.jpeg">
+            </div>
+            <div class="slide tagging-slide" style="display: none;">
+              <div class="slideNumber">3</div>
+              <img src="img/staff-apparel/staff-apparel-3.jpeg">
+            </div>
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides4(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides4(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-tag" onclick="activeSlide4(1)">
+            </span>
+            <span class="footerdot dot-tag" onclick="activeSlide4(2)">
+            </span>
+            <span class="footerdot dot-tag" onclick="activeSlide4(3)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex4 = 1;
+            displaySlide4(slideIndex3);
+
+            function moveSlides4(n) {
+              displaySlide4(slideIndex3 += n);
+            }
+
+            function activeSlide4(n) {
+              displaySlide4(slideIndex3 = n);
+            }
+
+            /* Main function */
+            function displaySlide4(n) {
+              var k;
+              var totalslides =
+                document.getElementsByClassName("tagging-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-team");
+
+              if (n > totalslides.length) {
+                slideIndex4 = 1;
+              }
+
+              if (n < 1) {
+                slideIndex3 = totalslides.length;
+              }
+              for (l = 0; l < totalslides.length; l++) {
+                totalslides[k].style.display = "none";
+              }
+              for (l = 0; l < totaldots.length; l++) {
+                totaldots[l].className =
+                  totaldots[l].className.replace(" active", "");
+              }
+              totalslides[slideIndex4 - 1].style.display = "flex";
+              totaldots[slideIndex4 - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+
         <div class="service-description" id="#service-description">
           <p>
             We know apparel here at the Lab. Apparel design is one of our specialties; & with that, comes the ability to
