@@ -625,8 +625,83 @@
         </div>
       </div>
 
+      <!--Space Design Service Block-->
       <div class="services-list-block" id="services-list-block">
         <h3 class="h3">Space Design</h3>
+
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide space-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/tagging/ProductionTechPack.jpg">
+            </div>
+            <div class="slide space-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/tagging/Trims1000x2000.jpeg">
+            </div>
+      
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides6(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides6(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-space" onclick="activeSlide6(1)">
+            </span>
+            <span class="footerdot dot-space" onclick="activeSlide6(2)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex6 = 1;
+            displaySlide6(slideIndex6);
+
+            function moveSlides6(n) {
+              displaySlide6(slideIndex6 += n);
+            }
+
+            function activeSlide6(n) {
+              displaySlide6(slideIndex6 = n);
+            }
+
+            /* Main function */
+            function displaySlide6(n) {
+              var k;
+              var totalslides =
+                document.getElementsByClassName("space-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-space");
+
+              if (n > totalslides.length) {
+                slideIndex6 = 1;
+              }
+
+              if (n < 1) {
+                slideIndex6 = totalslides.length;
+              }
+              for (o = 0; o < totalslides.length; o++) {
+                totalslides[o].style.display = "none";
+              }
+              for (o = 0; o < totaldots.length; o++) {
+                totaldots[o].className =
+                  totaldots[o].className.replace(" active", "");
+              }
+              totalslides[slideIndex6 - 1].style.display = "flex";
+              totaldots[slideIndex6 - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+
         <div class="service-description" id="#service-description">
           <p>
             Interior & Exterior Design is amongst our agency’s many services. We’ve designed real storefronts that are
@@ -648,7 +723,82 @@
         </div>
       </div>
 
+       <!--Event Branding Service Block-->
       <div class="services-list-block" id="services-list-block">
+
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide event-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/tagging/ProductionTechPack.jpg">
+            </div>
+            <div class="slide event-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/tagging/Trims1000x2000.jpeg">
+            </div>
+      
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides7(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides7(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-event" onclick="activeSlide7(1)">
+            </span>
+            <span class="footerdot dot-event" onclick="activeSlide7(2)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex7 = 1;
+            displaySlide7(slideIndex7);
+
+            function moveSlides7(n) {
+              displaySlide7(slideIndex7 += n);
+            }
+
+            function activeSlide7(n) {
+              displaySlide7(slideIndex7 = n);
+            }
+
+            /* Main function */
+            function displaySlide7(n) {
+              var k;
+              var totalslides =
+                document.getElementsByClassName("event-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-event");
+
+              if (n > totalslides.length) {
+                slideIndex7 = 1;
+              }
+
+              if (n < 1) {
+                slideIndex7 = totalslides.length;
+              }
+              for (p = 0; p < totalslides.length; p++) {
+                totalslides[o].style.display = "none";
+              }
+              for (p = 0; p < totaldots.length; p++) {
+                totaldots[o].className =
+                  totaldots[o].className.replace(" active", "");
+              }
+              totalslides[slideIndex7 - 1].style.display = "flex";
+              totaldots[slideIndex7 - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+
         <h3 class="h3">Event Branding/Marketing</h3>
         <div class="service-description" id="#service-description">
           <p>
@@ -669,8 +819,82 @@
         </div>
       </div>
 
-
+      <!--Web Design Service Block-->
       <div class="services-list-block" id="services-list-block">
+
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide web-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/tagging/ProductionTechPack.jpg">
+            </div>
+            <div class="slide web-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/tagging/Trims1000x2000.jpeg">
+            </div>
+      
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides8(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides8(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-web" onclick="activeSlide8(1)">
+            </span>
+            <span class="footerdot dot-web" onclick="activeSlide8(2)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex8 = 1;
+            displaySlide8(slideIndex8);
+
+            function moveSlides8(n) {
+              displaySlide8(slideIndex8 += n);
+            }
+
+            function activeSlide8(n) {
+              displaySlide8(slideIndex8 = n);
+            }
+
+            /* Main function */
+            function displaySlide8(n) {
+              var k;
+              var totalslides =
+                document.getElementsByClassName("web-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-web");
+
+              if (n > totalslides.length) {
+                slideIndex8 = 1;
+              }
+
+              if (n < 1) {
+                slideIndex8 = totalslides.length;
+              }
+              for (q = 0; q < totalslides.length; q++) {
+                totalslides[o].style.display = "none";
+              }
+              for (q = 0; q < totaldots.length; q++) {
+                totaldots[q].className =
+                  totaldots[q].className.replace(" active", "");
+              }
+              totalslides[slideIndex8 - 1].style.display = "flex";
+              totaldots[slideIndex8 - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+
         <h3 class="h3">Web Design & Development</h3>
         <div class="service-description" id="#service-description">
           <p>
