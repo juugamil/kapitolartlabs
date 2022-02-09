@@ -34,11 +34,11 @@
 
 .contact form {
     display: flex;
-    width:50%;
+    width: 50%;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    padding:1em;
+    padding: 1em;
     border-radius: 10px;
     background-color: #fabe09;
     color: white;
@@ -61,7 +61,7 @@
     background-color: white;
 }
 
-.fullscreen > .text {
+.fullscreen>.text {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -76,6 +76,20 @@
     align-content: center;
     width: 30%;
     margin-left: 35%;
+}
+
+#fullpage {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
 }
 
 
@@ -119,7 +133,8 @@
 }
 
 .hide {
-    display: none !important;;
+    display: none !important;
+    ;
 }
 
 .home-hero-overlay {
@@ -243,7 +258,7 @@ html * {
 }
 
 .no-click {
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 p {
@@ -259,7 +274,7 @@ p {
     flex-wrap: wrap;
 }
 
-.portfolio-card > a {
+.portfolio-card>a {
     width: 100%;
 }
 
@@ -444,7 +459,7 @@ p {
     box-shadow: 5px 5px 5px black;
 }
 
-.slideshow > h3 {
+.slideshow>h3 {
     color: black;
     text-align: center;
 }
@@ -531,7 +546,7 @@ p {
         padding: 2em;
     }
 
-    .fullscreen > .text {
+    .fullscreen>.text {
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -693,7 +708,7 @@ p {
         width: 100vw;
         justify-content: space-between;
     }
-    
+
     .portfolio-card {
         display: flex;
         width: 100%;
@@ -702,17 +717,17 @@ p {
         background-size: cover;
     }
 
-    .portfolio-card > a {
+    .portfolio-card>a {
         width: 100%;
     }
-    
+
     .portfolio-card:hover .portfolio-card-overlay {
         background-color: rgba(250, 190, 9, 0.9);
         opacity: 1;
         -webkit-transition: background-color .5s ease-in, opacity .5s ease-in;
         transition: background-color .5s ease-in, opacity .5s ease-in;
     }
-    
+
     .portfolio-card-overlay {
         display: flex;
         flex: 1 1 100%;
@@ -723,7 +738,7 @@ p {
         -webkit-transition: background-color .5s ease-in, opacity .5s ease-in;
         transition: background-color .5s ease-in, opacity .5s ease-in;
     }
-    
+
     .portfolio-card-text {
         display: flex;
         flex-direction: column;
@@ -819,7 +834,7 @@ p {
         z-index: 0;
         justify-content: center;
     }
-    
+
     .sub-hero {
         flex: 1 1 100%;
         position: relative;
