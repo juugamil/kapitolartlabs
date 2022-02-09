@@ -1,4 +1,4 @@
-const imgs = document.querySelectorAll('.slide img');
+const imgs = document.querySelectorAll('.services-list-block > .image-slider > .slide img');
 const fullPage = document.querySelector('#fullpage');
 
 imgs.forEach(img => {
