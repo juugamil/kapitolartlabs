@@ -442,16 +442,13 @@
           <div class="image-container">
             <div class="slide tagging-slide" style="display: flex;">
               <div class="slideNumber">1</div>
-              <img src="img/staff-apparel/staff-apparel-1.jpeg">
+              <img src="img/tagging/ProductionTechPack.jpg">
             </div>
             <div class="slide tagging-slide" style="display: none;">
               <div class="slideNumber">2</div>
-              <img src="img/staff-apparel/staff-apparel-2.jpeg">
+              <img src="img/tagging/Trims1000x2000.jpeg">
             </div>
-            <div class="slide tagging-slide" style="display: none;">
-              <div class="slideNumber">3</div>
-              <img src="img/staff-apparel/staff-apparel-3.jpeg">
-            </div>
+      
             
 
             <!-- Next and Previous icon to change images -->
@@ -468,8 +465,6 @@
             <span class="footerdot dot-tag" onclick="activeSlide4(1)">
             </span>
             <span class="footerdot dot-tag" onclick="activeSlide4(2)">
-            </span>
-            <span class="footerdot dot-tag" onclick="activeSlide4(3)">
             </span>
           </div>
           
@@ -536,8 +531,83 @@
         </div>
       </div>
 
+       <!--Illustration Service Block-->
       <div class="services-list-block" id="services-list-block">
         <h3 class="h3">Illustration</h3>
+
+        <div class="image-slider">
+          <!-- Image container of the image slider -->
+          <div class="image-container">
+            <div class="slide illustration-slide" style="display: flex;">
+              <div class="slideNumber">1</div>
+              <img src="img/tagging/ProductionTechPack.jpg">
+            </div>
+            <div class="slide illustration-slide" style="display: none;">
+              <div class="slideNumber">2</div>
+              <img src="img/tagging/Trims1000x2000.jpeg">
+            </div>
+      
+            
+
+            <!-- Next and Previous icon to change images -->
+            <a class="previous" onclick="moveSlides5(-1)">
+              <i class="fa fa-chevron-circle-left"></i>
+            </a>
+            <a class="next" onclick="moveSlides5(1)">
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="footerdot dot-illustration" onclick="activeSlide5(1)">
+            </span>
+            <span class="footerdot dot-illustration" onclick="activeSlide5(2)">
+            </span>
+          </div>
+          
+          <script>
+            var slideIndex5 = 1;
+            displaySlide5(slideIndex5);
+
+            function moveSlides5(n) {
+              displaySlide5(slideIndex5 += n);
+            }
+
+            function activeSlide5(n) {
+              displaySlide5(slideIndex5 = n);
+            }
+
+            /* Main function */
+            function displaySlide5(n) {
+              var k;
+              var totalslides =
+                document.getElementsByClassName("illustration-slide");
+              var totaldots =
+                document.getElementsByClassName("dot-illustration");
+
+              if (n > totalslides.length) {
+                slideIndex5 = 1;
+              }
+
+              if (n < 1) {
+                slideIndex5 = totalslides.length;
+              }
+              for (m = 0; m < totalslides.length; m++) {
+                totalslides[m].style.display = "none";
+              }
+              for (m = 0; m < totaldots.length; m++) {
+                totaldots[m].className =
+                  totaldots[m].className.replace(" active", "");
+              }
+              totalslides[slideIndex5 - 1].style.display = "flex";
+              totaldots[slideIndex5 - 1].className += " active";
+            }
+          </script>
+    
+
+        </div>
+
         <div class="service-description" id="#service-description">
           <p>
             Let the Lab illustrate your next creative project or add illustrative elements to your next campaign. Our
